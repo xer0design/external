@@ -72,7 +72,7 @@
               </label><br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="border2">
                 <input type="radio" id="border2" class="mdl-radio__button" name="eXternal" value="border2">
-                <span class="mdl-radio__label">Black Border (Solo - Think)
+                <span class="mdl-radio__label">Black Border (Solo - Thick)
                 </span>
               </label><br> <h5>Config</h5>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="ticker">
