@@ -1,8 +1,10 @@
 <?php
 
 $eXternal = strip_tags($_POST['eXternal']);
+$stocks = strip_tags($_POST['stocks']);
 
 // sky broadcasting
+
 
 if ($eXternal == "stl"){ //top left
 $old_path = getcwd();

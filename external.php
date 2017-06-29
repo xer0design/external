@@ -20,7 +20,7 @@
                 </span>
               </label><br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="str">
-                <input type="radio" id="str" class="mdl-radio__button" name="eXternal" value="str" checked>
+                <input type="radio" id="str" class="mdl-radio__button" name="eXternal" value="str">
                 <span class="mdl-radio__label">Account Block (TR) + Standard Glass
                 </span>
               </label><br>
