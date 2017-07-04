@@ -73,6 +73,24 @@ chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
 $output = shell_exec('./uncle.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
+if ($eXternal == "florian"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./florian.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "karaoke"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./karaoke.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "saturday"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./saturday.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
 if ($eXternal == "border"){
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
@@ -100,6 +118,20 @@ if ($eXternal == "grid"){ //alignment grid
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/config/');
 $output = shell_exec('./grid.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+
+if ($eXternal == "disableka"){ //KeepAlive Off
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/config/');
+$output = shell_exec('./disableka.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+
+if ($eXternal == "reboot"){ //alignment grid
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/config/');
+$output = shell_exec('./reboot.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
 

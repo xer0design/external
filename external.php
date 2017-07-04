@@ -1,15 +1,7 @@
 
 <div name="admin" class="wow fadeInUp content-card" style="margin-top: 0;">
         <span class="text-subtitle" style="font-size: 2em; font-weight: 300; color: #333">Brogue TV Controls.
-        </span>
-        <br>				
-        <div class="detail-item">
-          <iron-icon class="details-icon" icon="info">
-          </iron-icon>
-          <span>Currently set to: "
-            <?php include("external/ticker.txt"); //ignore this ?>.
-            <span>
-              </div>
+    </span>
             <br>
             <!-- form -->
             <form method="post" action="sender.php">
@@ -65,6 +57,21 @@
                 <span class="mdl-radio__label">Uncle Squig
                 </span>
               </label><br> 
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="florian">
+                <input type="radio" id="florian" class="mdl-radio__button" name="eXternal" value="florian">
+                <span class="mdl-radio__label">Florian 
+                </span>
+              </label><br>  
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="saturday">
+                <input type="radio" id="saturday" class="mdl-radio__button" name="eXternal" value="saturday">
+                <span class="mdl-radio__label">Saturday (DJ Massive - head upstairs) 
+                </span>
+              </label><br> 
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="karaoke">
+                <input type="radio" id="karaoke" class="mdl-radio__button" name="eXternal" value="karaoke">
+                <span class="mdl-radio__label">Karaoke 
+                </span>
+              </label><br> 
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="border">
                 <input type="radio" id="border" class="mdl-radio__button" name="eXternal" value="border">
                 <span class="mdl-radio__label">Black Border (Solo - Thin)
@@ -85,9 +92,19 @@
                 <span class="mdl-radio__label">Alignment Grid
                 </span>
               </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="disableka">
+                <input type="radio" id="disableka" class="mdl-radio__button" name="eXternal" value="disableka">
+                <span class="mdl-radio__label">Disable KeepAlive timer
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="reboot">
+                <input type="radio" id="reboot" class="mdl-radio__button" name="eXternal" value="reboot">
+                <span class="mdl-radio__label">Reboot TVs (emergency use only)
+                </span>
+              </label><br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="clear">
                 <input type="radio" id="clear" class="mdl-radio__button" name="eXternal" value="clear">
-                <span class="mdl-radio__label">Turn Off
+                <span class="mdl-radio__label">Turn Off Graphics
                 </span>
               </label><br>
               <br>  
