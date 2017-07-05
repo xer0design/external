@@ -55,8 +55,13 @@
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="uncle">
                 <input type="radio" id="uncle" class="mdl-radio__button" name="eXternal" value="uncle">
                 <span class="mdl-radio__label">Uncle Squig
-                </span>
-              </label><br> 
+                </span>  
+              </label><div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input name="squigbubble" class="mdl-textfield__input" type="text">
+                            <label class="mdl-textfield__label" for="squigbubble">Bubble Text
+                </label>
+                        </div>
+                        <br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="florian">
                 <input type="radio" id="florian" class="mdl-radio__button" name="eXternal" value="florian">
                 <span class="mdl-radio__label">Florian 

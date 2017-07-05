@@ -15,16 +15,17 @@ body {
 			background-size:  cover;
 			background-width: 100%;
 			background-height: 100%;
+			color: white;
   
 }
 
 div, body{
 	margin-right: 51px;
-	margin-left: 120px;
+	margin-left: 99px;
 	margin-bottom: 51px;
 	padding: 0;
 	font-family: exo, sans-serif;
-	margin-top: 353px;
+	margin-top: 435px;
 }
 .wrapper {
   height: 100%; 
@@ -41,7 +42,7 @@ div, body{
   display: block;
   position: absolute;
   background-color: rgba(0,0,0,0.6);
-  color: #fff;
+  color: #000;
   padding: 0.5em;
 }
 
@@ -49,7 +50,7 @@ div, body{
 
 </head>
 <body>
-	<div><h2><font color="white">Dummy Content</font></h2></div>
+	<div><h2><?php include "../../squig.txt";?></h2></div>
 <!--
 <div class="wrapper">
   <div class="message">

@@ -2,6 +2,7 @@
 
 $eXternal = strip_tags($_POST['eXternal']);
 $stocks = strip_tags($_POST['stocks']);
+$squigbubble = strip_tags($_POST['squigbubble']);
 
 // sky broadcasting
 
@@ -147,6 +148,32 @@ $external = "/home/pi/led-matrix-controller/www/external/ticker.txt";
 $visExternalCheck = isset($_POST['updateext']); 
 $fileext = '/home/pi/led-matrix-controller/www/external/clear.txt';
 $newfileext = '/home/pi/led-matrix-controller/www/external/ticker.txt';
+$newfilesquig = '/home/pi/led-matrix-controller/www/external/squig.txt';
+
+//clear squig bubble
+// clear the old external file (ignore)
+if ($squigbubble != ""){
+if (!copy($fileext, $newfilesquig)) { 
+echo "<h3>Sq-CLR: 🚫</h3>   "; 
+} 
+else{
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./squig.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+// write the new external file (igonore)
+$sq = fopen ($newfilesquig, "a");
+if ($sq) {
+fwrite ($sq, $squigbubble);
+fclose ($sq);
+}
+echo "<h3>Sq-CLR: ✅</h3>   ";
+}
+}
+
+
+
+
 
 
 ?>

@@ -1,14 +1,22 @@
+<!DOCTYPE html>
+
+
+
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
 <title>xer0.tv</title>
+
+
+ <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
 
 <style>
 html, body{
   height: 100%;
 }
 body { 
-			background-image: url(squig.png) ;
+			background-image: url(visuals/fun/squig.png) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
@@ -18,14 +26,7 @@ body {
   
 }
 
-div, body{
-	margin-right: 51px;
-	margin-left: 120px;
-	margin-bottom: 51px;
-	padding: 0;
-	font-family: exo, sans-serif;
-	margin-top: 353px;
-}
+
 .wrapper {
   height: 100%; 
   width: 100%; 
@@ -48,14 +49,18 @@ div, body{
 </style>
 
 </head>
+
+
 <body>
-	<div><h2><font color="white">Dummy Content</font></h2></div>
-<!--
-<div class="wrapper">
-  <div class="message">
-    <h1>xer0.overlay</h1>    
-  </div>
+
+  <div id="bar" class = "ticker-container">
+	<div class = "ticker-text"><div id="ticktext">
+    <img src="blogo.png"></img><?php include("ticker.txt"); ?></div>
+	</div>
 </div>
--->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
 </body>
 </html>
