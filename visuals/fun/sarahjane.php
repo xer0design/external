@@ -8,7 +8,7 @@ html, body{
   height: 100%;
 }
 body { 
-			background-image: url(squig.png) ;
+			background-image: url(sarahjane.png) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;

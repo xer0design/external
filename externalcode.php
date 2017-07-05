@@ -1,5 +1,8 @@
 <?php
 
+$bubbleclear ="❕"; 
+$bubblereplace ="❕"; 
+
 $eXternal = strip_tags($_POST['eXternal']);
 $stocks = strip_tags($_POST['stocks']);
 $squigbubble = strip_tags($_POST['squigbubble']);
@@ -80,6 +83,24 @@ chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
 $output = shell_exec('./florian.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
+if ($eXternal == "sarahjane"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./sarahjane.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "trevor"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./trevor.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "natdanflo"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./natdanflo.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
 if ($eXternal == "karaoke"){
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
@@ -154,9 +175,10 @@ $newfilesquig = '/home/pi/led-matrix-controller/www/external/squig.txt';
 // clear the old external file (ignore)
 if ($squigbubble != ""){
 if (!copy($fileext, $newfilesquig)) { 
-echo "<h3>Sq-CLR: 🚫</h3>   "; 
+$bubbleclear ="❌"; 
 } 
 else{
+$bubbleclear ="✅";
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
 $output = shell_exec('./squig.sh > /dev/null 2>/dev/null &');
@@ -167,13 +189,9 @@ if ($sq) {
 fwrite ($sq, $squigbubble);
 fclose ($sq);
 }
-echo "<h3>Sq-CLR: ✅</h3>   ";
+$bubblereplace ="✅";
 }
 }
-
-
-
-
 
 
 ?>

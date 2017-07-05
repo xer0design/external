@@ -52,19 +52,34 @@
                 <span class="mdl-radio__label">Black Border (Think) + Scaled Glass
                 </span>
               </label><br>    <h5>Fun & Alternatives </h5>  
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input name="squigbubble" class="mdl-textfield__input" type="text">
+                            <label class="mdl-textfield__label" for="squigbubble">Bubble Text (current: "<?php include "external/squig.txt";?>")
+                </label>
+                        </div><br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="uncle">
                 <input type="radio" id="uncle" class="mdl-radio__button" name="eXternal" value="uncle">
-                <span class="mdl-radio__label">Uncle Squig
-                </span>  
-              </label><div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input name="squigbubble" class="mdl-textfield__input" type="text">
-                            <label class="mdl-textfield__label" for="squigbubble">Bubble Text
-                </label>
-                        </div>
-                        <br>
+                <span class="mdl-radio__label">Uncle Squig (Bubble Enabled)
+                </span>
+              </label> <br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="florian">
                 <input type="radio" id="florian" class="mdl-radio__button" name="eXternal" value="florian">
-                <span class="mdl-radio__label">Florian 
+                <span class="mdl-radio__label">Florian (Bubble Enabled)
+                </span>
+              </label><br>  
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sarahjane">
+                <input type="radio" id="sarahjane" class="mdl-radio__button" name="eXternal" value="sarahjane">
+                <span class="mdl-radio__label">Sarah-Jane (Bubble Enabled)
+                </span>
+              </label><br>    
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="trevor">
+                <input type="radio" id="trevor" class="mdl-radio__button" name="eXternal" value="trevor">
+                <span class="mdl-radio__label">Trevor (Bubble Enabled)
+                </span>
+              </label><br>     
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="natdanflo">
+                <input type="radio" id="natdanflo" class="mdl-radio__button" name="eXternal" value="natdanflo">
+                <span class="mdl-radio__label">Natalie, Daniel, Florian (Bubble Enabled)
                 </span>
               </label><br>  
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="saturday">
