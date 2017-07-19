@@ -77,6 +77,12 @@ chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
 $output = shell_exec('./uncle.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
+if ($eXternal == "unclealt"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./unclealt.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
 if ($eXternal == "florian"){
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
@@ -89,6 +95,12 @@ chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
 $output = shell_exec('./sarahjane.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
+if ($eXternal == "katie"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./katie.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
 if ($eXternal == "trevor"){
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
@@ -99,6 +111,12 @@ if ($eXternal == "natdanflo"){
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
 $output = shell_exec('./natdanflo.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "bartdanny"){
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/fun/');
+$output = shell_exec('./bartdanny.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
 if ($eXternal == "karaoke"){

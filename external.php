@@ -62,6 +62,11 @@
                 <span class="mdl-radio__label">Uncle Squig (Bubble Enabled)
                 </span>
               </label> <br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="unclealt">
+                <input type="radio" id="unclealt" class="mdl-radio__button" name="eXternal" value="unclealt">
+                <span class="mdl-radio__label">Uncle Squig (Alternative - I Love Florian Tshirt)
+                </span>
+              </label> <br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="florian">
                 <input type="radio" id="florian" class="mdl-radio__button" name="eXternal" value="florian">
                 <span class="mdl-radio__label">Florian (Bubble Enabled)
@@ -70,6 +75,11 @@
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sarahjane">
                 <input type="radio" id="sarahjane" class="mdl-radio__button" name="eXternal" value="sarahjane">
                 <span class="mdl-radio__label">Sarah-Jane (Bubble Enabled)
+                </span>
+              </label><br>  
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="katie">
+                <input type="radio" id="katie" class="mdl-radio__button" name="eXternal" value="katie">
+                <span class="mdl-radio__label">Katie (Bubble Enabled)
                 </span>
               </label><br>    
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="trevor">
@@ -80,6 +90,11 @@
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="natdanflo">
                 <input type="radio" id="natdanflo" class="mdl-radio__button" name="eXternal" value="natdanflo">
                 <span class="mdl-radio__label">Natalie, Daniel, Florian (Bubble Enabled)
+                </span>
+              </label><br>     
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="bartdanny">
+                <input type="radio" id="bartdanny" class="mdl-radio__button" name="eXternal" value="bartdanny">
+                <span class="mdl-radio__label">Bart, Squig, Danny (Bubble Enabled)
                 </span>
               </label><br>  
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="saturday">
@@ -115,11 +130,6 @@
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="disableka">
                 <input type="radio" id="disableka" class="mdl-radio__button" name="eXternal" value="disableka">
                 <span class="mdl-radio__label">Disable KeepAlive timer
-                </span>
-              </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="reboot">
-                <input type="radio" id="reboot" class="mdl-radio__button" name="eXternal" value="reboot">
-                <span class="mdl-radio__label">Reboot TVs (emergency use only)
                 </span>
               </label><br>
               <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="clear">
