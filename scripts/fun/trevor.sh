@@ -3,7 +3,7 @@
 set prompt "pi@raspberrypi ~ $ "
 spawn ssh root@192.168.1.49 NeTVBrowser SetURL http://192.168.1.23/external/visuals/fun/trevor.php
 
-set timeout 5
+set timeout 30
 expect {
     timeout {
         puts "Connection timed out"

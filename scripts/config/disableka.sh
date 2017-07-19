@@ -4,7 +4,7 @@
 set prompt "pi@raspberrypi ~ $ "
 spawn ssh root@192.168.1.49 NeTVBrowser KeepAlive Off
 
-set timeout 5
+set timeout 30
 expect {
     timeout {
         puts "Connection timed out"
