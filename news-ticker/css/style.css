@@ -1,0 +1,19 @@
+.ticker__viewport {
+  background: #0093d0;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.ticker__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ticker__item {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 40px;
+}
