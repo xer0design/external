@@ -8,7 +8,7 @@ html, body{
   height: 100%;
 }
 body { 
-			background-image: url(ticker.png) ;
+			background-image: url(upload/file.jpg) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
@@ -64,8 +64,9 @@ img {
 </style>
 
 </head>
-<body>
-    <div><marquee width="100%" scrollamount="7"><h1><img src="blogo.png" height="60px"></img><img src="<?php include "image.txt";?>" height="60px"></img><?php include "ticker.txt";?></h1></marquee></div>
+<body>   
+    <div><marquee width="100%" scrollamount="7"><h1><img src="blogo.png" height="60px"></img><?php include "ticker.txt";?></h1></marquee></div>
+    <div><img src="<?php include "image.txt";?>" height="200px"></img></div> 
 <!--
 <div class="wrapper">
   <div class="message">
