@@ -8,16 +8,17 @@ html, body{
   height: 100%;
 }
 body { 
-			background-image: url(upload/file.jpg) ;
+			background-image: url(ticker.png), url(upload/file.jpg), url(black.jpg);
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
-			background-size:  cover;
+			background-size:  contain;
 			background-width: 100%;
 			background-height: 100%;
 			color: white;
   
 }
+    
 
 	h1 { 
     display: black;
