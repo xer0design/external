@@ -65,7 +65,7 @@ img {
 
 </head>
 <body>
-    <div><marquee width="100%" scrollamount="12"><h1><img src="blogo.png" height="60px"></img><img src="<?php include "image.txt";?>" height="60px"></img><?php include "ticker.txt";?></h1></marquee></div>
+    <div><marquee width="100%" scrollamount="10"><h1><img src="blogo.png" height="60px"></img><img src="<?php include "image.txt";?>" height="60px"></img><?php include "ticker.txt";?></h1></marquee></div>
 <!--
 <div class="wrapper">
   <div class="message">
