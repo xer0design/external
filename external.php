@@ -1,55 +1,55 @@
 
 <div name="admin" class="wow fadeInUp content-card" style="margin-top: 0;">
-        <span class="text-subtitle" style="font-size: 2em; font-weight: 300; color: #333">Brogue TV Controls.
+        <span class="text-subtitle" style="font-size: 2em; font-weight: 300; color: #333">Brogue TV Controls (Orignal NeTV).
     </span>
             <br>
             <!-- form -->
             <form method="post" action="sender.php">
               <!-- b sky b -->   <h5>Sky Broadcasting</h5>         
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="stl">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="stl"><!-- sky top left -->
                 <input type="radio" id="stl" class="mdl-radio__button" name="eXternal" value="stl">
-                <span class="mdl-radio__label">Top Left Corner (Small)
+                <span class="mdl-radio__label">Sky Glass (Top Left)
                 </span>
               </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="str">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="str"><!-- sky top right -->
                 <input type="radio" id="str" class="mdl-radio__button" name="eXternal" value="str">
-                <span class="mdl-radio__label">Account Block (TR) + Standard Glass
+                <span class="mdl-radio__label">Sky Glass (Bottom Right)
                 </span>
               </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sbl">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sbl"><!-- sky bottom left -->
                 <input type="radio" id="sbl" class="mdl-radio__button" name="eXternal" value="sbl">
-                <span class="mdl-radio__label">Black Border (Thin) + Account Block (TR) + Scaled Glass
+                <span class="mdl-radio__label">Thin Border + Sky Glass
                 </span>
               </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sbr">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sbr"><!-- sky bottom right -->
                 <input type="radio" id="sbr" class="mdl-radio__button" name="eXternal" value="sbr">
-                <span class="mdl-radio__label">Black Border (Thick) + Account Block (TR) + Scaled Glass
+                <span class="mdl-radio__label">Thick Border + Sky Glass
                 </span>
               </label><br>
                 <!-- bt sport -->   <h5>BT Sport</h5>         
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="btred">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="btred"><!-- bt red -->
                 <input type="radio" id="btred" class="mdl-radio__button" name="eXternal" value="btred">
-                <span class="mdl-radio__label">Bottom Right Glass (Red)
+                <span class="mdl-radio__label">BT Glass Red (Bottom Right)
                 </span>
               </label><br>        
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="bttl">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="bttl"><!-- bt top left -->
                 <input type="radio" id="bttl" class="mdl-radio__button" name="eXternal" value="bttl">
-                <span class="mdl-radio__label">Bottom Right Glass (Standard)
+                <span class="mdl-radio__label">BT Glass Clear
                 </span>
               </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="bttr">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="bttr"><!-- bt top right -->
                 <input type="radio" id="bttr" class="mdl-radio__button" name="eXternal" value="bttr">
-                <span class="mdl-radio__label">Account Block (TR) + Standard Glass
+                <span class="mdl-radio__label">Thin Border + BT Glass Red
                 </span>
               </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="btbl">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="btbl"><!-- bt bottom left -->
                 <input type="radio" id="btbl" class="mdl-radio__button" name="eXternal" value="btbl">
-                <span class="mdl-radio__label">Black Border (Thin) + Scaled Glass
+                <span class="mdl-radio__label">Thin Border + BT Glass Clear
                 </span>
               </label><br>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="btbr">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="btbr"><!-- bt bottom right -->
                 <input type="radio" id="btbr" class="mdl-radio__button" name="eXternal" value="btbr">
-                <span class="mdl-radio__label">Black Border (Think) + Scaled Glass
+                <span class="mdl-radio__label">Thick Border + BT Glass Clear
                 </span>
               </label><br>    <h5>Fun & Alternatives </h5>  
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -147,12 +147,88 @@
             </form>
             <div>
               <br>
+              
+                </span>
+              </span>
+            </div>
+            </div>
+
+
+
+
+                  <div class="wow fadeInUp content-works"> 
+      </div>
+
+
+<div name="admin" class="wow fadeInUp content-card" style="margin-top: 0;">
+        <span class="text-subtitle" style="font-size: 2em; font-weight: 300; color: #333">Box 2 Control 
+    </span>
+            <br>
+            <!-- form -->
+            <form method="post" action="sender.php">
+              <!-- b sky b -->   <h5>Sky Broadcasting</h5>         
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2stl"><!-- sky top left -->
+                <input type="radio" id="2stl" class="mdl-radio__button" name="eXternal" value="2stl">
+                <span class="mdl-radio__label">Sky Glass (Top Left)
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2str"><!-- sky top right -->
+                <input type="radio" id="2str" class="mdl-radio__button" name="eXternal" value="2str">
+                <span class="mdl-radio__label">Sky Glass (Bottom Right)
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2sbl"><!-- sky bottom left -->
+                <input type="radio" id="2sbl" class="mdl-radio__button" name="eXternal" value="2sbl">
+                <span class="mdl-radio__label">Thin Border + Sky Glass
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2sbr"><!-- sky bottom right -->
+                <input type="radio" id="2sbr" class="mdl-radio__button" name="eXternal" value="2sbr">
+                <span class="mdl-radio__label">Thick Border + Sky Glass
+                </span>
+              </label><br>
+                <!-- bt sport -->   <h5>BT Sport</h5>         
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2btred"><!-- bt red -->
+                <input type="radio" id="2btred" class="mdl-radio__button" name="eXternal" value="2btred">
+                <span class="mdl-radio__label">BT Glass Red (Bottom Right)
+                </span>
+              </label><br>        
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2bttl"><!-- bt top left -->
+                <input type="radio" id="2bttl" class="mdl-radio__button" name="eXternal" value="2bttl">
+                <span class="mdl-radio__label">BT Glass Clear
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2bttr"><!-- bt top right -->
+                <input type="radio" id="2bttr" class="mdl-radio__button" name="eXternal" value="2bttr">
+                <span class="mdl-radio__label">Thin Border + BT Glass Red
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2btbl"><!-- bt bottom left -->
+                <input type="radio" id="2btbl" class="mdl-radio__button" name="eXternal" value="2btbl">
+                <span class="mdl-radio__label">Thin Border + BT Glass Clear
+                </span>
+              </label><br>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2btbr"><!-- bt bottom right -->
+                <input type="radio" id="2btbr" class="mdl-radio__button" name="eXternal" value="2btbr">
+                <span class="mdl-radio__label">Thick Border + BT Glass Clear
+                </span>
+              </label><br>
+              <br>  
+              <br>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="submit" >
+                Submit
+              </button>
+            </form>
+            <div>
               <br>
               
                 </span>
               </span>
             </div>
             </div>
+
+
+
 
                   <div class="wow fadeInUp content-works"> 
       </div>

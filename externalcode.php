@@ -68,6 +68,75 @@ $output = shell_exec('./btbr.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
 
+//start===================
+
+// sky broadcasting
+
+
+if ($eXternal == "2stl"){ //top left
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/sky/');
+$output = shell_exec('./2stl.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2str"){ //top right
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/sky/');
+$output = shell_exec('./2str.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2sbl"){ //bottom left
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/sky/');
+$output = shell_exec('./2sbl.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2sbr"){// bottom right
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/sky/');
+$output = shell_exec('./2sbr.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+
+//bt sport
+
+if ($eXternal == "2btred"){ //red logo
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/bt/');
+$output = shell_exec('./2btred.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2bttl"){ //top left
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/bt/');
+$output = shell_exec('./2bttl.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2bttr"){ //top right
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/bt/');
+$output = shell_exec('./2bttr.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2btbl"){ //bottom left
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/bt/');
+$output = shell_exec('./2btbl.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+if ($eXternal == "2btbr"){// bottom right
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/bt/');
+$output = shell_exec('./2btbr.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+
+
+
+
+
+
+//end=====================
 
 //fun and alt
 
@@ -179,6 +248,13 @@ if ($eXternal == "clear"){ //clear
 $old_path = getcwd();
 chdir('/home/pi/led-matrix-controller/www/external/scripts/config/');
 $output = shell_exec('./empty.sh > /dev/null 2>/dev/null &');
+chdir($old_path);
+}
+
+if ($eXternal == "2clear"){ //clear
+$old_path = getcwd();
+chdir('/home/pi/led-matrix-controller/www/external/scripts/config/');
+$output = shell_exec('./2empty.sh > /dev/null 2>/dev/null &');
 chdir($old_path);
 }
 
